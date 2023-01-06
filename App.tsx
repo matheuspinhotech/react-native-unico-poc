@@ -8,17 +8,20 @@
  * @format
  */
 
-import React, {useEffect} from 'react';
-import {Text} from 'react-native';
+import React from 'react';
+import {Button, View} from 'react-native';
 
 import {UnicoModule} from './unico';
 
 const App = () => {
-  useEffect(() => {
-    UnicoModule.takePicture().then(console.log);
-  }, []);
-
-  return null;
+  return (
+    <View>
+      <Button
+        title="ABRIR CAMERA"
+        onPress={() => UnicoModule.takePicture().then(console.log)}
+      />
+    </View>
+  );
 };
 
 export default App;
