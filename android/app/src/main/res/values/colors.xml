@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splashscreen_bg">#FFF</color>
+    <color name="app_bg">#FFF</color>
+
+    <color name="primary">#EE7144</color>
+    <color name="secondary">#00B6F0</color>
+    <color name="unico_color_button_cancel">#000</color>
+</resources>
